@@ -25,6 +25,28 @@
       </hello-kitty>
 </div> 
 
+
+<weather-viewer latitude=40.79 longitude=-73.97>
+  <link rel=alternate type=application/json href=/weather-viewer>
+
+  <img slot=image src={image} alt={name}>
+  <h1  slot=description>Today in {name} the temperature is <strong>{temperature}</strong></h1>
+
+</weather-viewer>
+
+
+<weather-view>
+  <img slot=image>
+
+  <h1 slot=description>
+    Today in {name} the temperature is
+    <strong>{temperature}</strong>
+  </h1>
+
+</weather-view>
+
+
+
     <script src="snuggsi.js" ></script>
     <script src="script.js"></script>
 </body>
