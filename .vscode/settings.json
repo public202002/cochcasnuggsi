@@ -2,5 +2,6 @@
     "files.associations": {
         "*.es": "javascript",
         "*.test": "javascript"
-    }
+    },
+    "liveServer.settings.port": 5502
 }
