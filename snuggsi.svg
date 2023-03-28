@@ -1,6 +1,15 @@
 ﻿
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="717" height="9687" shape-rendering="optimizeSpeed">
-                
+                  <style>
+    title {
+		font-size: large;
+		font-weight: bold;
+		}
+		        text {
+            font-size: x-large;
+		font-weight: bold;
+        }
+  </style>
                 <g>
                    <rect x="50" y="65" width="420" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
                    <title>const HTMLElement = (e =&gt; {
